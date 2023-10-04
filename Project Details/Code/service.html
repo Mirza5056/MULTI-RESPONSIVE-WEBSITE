@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Multi Response website</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 class="home">Service</h1>
+            <div id="menu" class="fas fa-bars"></div>
+            <nav class="bar-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="plain.html">Plain</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="service">
+            <div class="box-container">
+                <div class="box">
+                    <i class="fas fa-tools"></i>
+                    <h3>Web Development</h3>
+                    <p>
+                        Web development is the art and science of crafting dynamic and interactive experiences on the internet. It encompasses a wide range of skills and technologies, from writing code that powers the functionality of websites and applications, to designing user interfaces that engage and delight users. Web developers work with programming languages such as HTML, CSS, and JavaScript to create responsive and visually appealing sites.
+                    </p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Design</h3>
+                    <p>
+                        Web design is the artistic and technical process of creating visually appealing and user-friendly websites. It involves the careful consideration of layout, color schemes, typography, and interactive elements to provide a seamless and engaging user experience. A skilled web designer combines creativity with a deep understanding of user behavior to craft designs that not only look aesthetically pleasing but also function intuitively.
+                    </p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-mobile"></i>
+                    <h3>Responsive Design</h3>
+                    <p>
+                        Response design also known as responsive design, refers to the approach of designing websites and applications to provide an optimal viewing and interaction experience across a wide range of devices and screen sizes. This technique ensures that a website or application adapts seamlessly to the user's device, whether it's a desktop computer, tablet, or smartphone 
+                    </p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Graphic Design</h3>
+                    <p>
+                        Graphic design is a creative discipline that involves visually communicating ideas, information, or messages through the use of imagery, typography, and layout. It encompasses a wide range of visual elements, including logos, illustrations, photographs, and various forms of digital or print media. Graphic designers employ their artistic skills, along with specialized software like Adobe Photoshop, Illustrator, and InDesign, to create visually appealing and effective designs. 
+                    </p>
+                </div>
+
+                <div class="box">
+                    <i class="fab fa-wordpress"></i>
+                    <h3>Word Press</h3>
+                    <p>
+                        WordPress is a widely-used content management system (CMS) that allows users to create and manage websites easily. It provides a user-friendly interface and a plethora of customizable themes and plugins, making it a popular choice for individuals, businesses, and organizations of all sizes. WordPress is based on open-source technology, which means it is constantly evolving and benefits from a large and active community of developers and users.
+                    </p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>SEO Marketing</h3>
+                    <p>
+                        SEO, or Search Engine Optimization, is a crucial component of digital marketing that focuses on optimizing a website or online content to improve its visibility in search engine results pages (SERPs). The goal of SEO marketing is to increase organic (non-paid) traffic to a website by enhancing its relevance and authority in the eyes of search engines like Google, Bing, and Yahoo. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>Why Choose As ?</h3>
+                    <p>
+                        At ChangeMakersHub we're not just another platform; we're a community of individuals united by a shared vision - to create a better world. Here's why you should join us:
+                    </p>    
+                </div>
+                
+                <div class="box">
+                    <h3>Quick Links</h3>
+                    <a href="index.html" id="box-name">Home</a>
+                    <a href="service.html" id="box-name">Service</a>
+                    <a href="about.html" id="box-name">About</a>
+                    <a href="contact.html" id="box-name">Contact</a>
+                    <a href="plain.html" id="box-name">Plan</a>
+                </div>
+
+                <div class="box">
+                    <h3>News Letter</h3>
+                    <p>Subscribe us for latest update</p>
+                    <form action="">
+                        <input type="email" placeholder="your email">
+                        <input type="submit" class="btn">
+                    </form>
+                </div>
+            </div>
+            <h1 class="credit">created by <a href="#">Kamran Akthar </a>| all right reserved.</h1>
+        </div>
+
+
+        
+        <script>
+            $(document).ready(function(){
+                $('#menu').click(function(){
+                    $(this).toggleClass('fa-times');
+                    $('.bar-menu').toggleClass('nav-toggle');
+                });
+            });
+        </script>
+    </body>
+</html>

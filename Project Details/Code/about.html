@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Multi Response website</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 class="home">About</h1>
+            <div id="menu" class="fas fa-bars"></div>
+            <nav class="bar-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="plain.html">Plain</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="about">
+            <div class="content">
+                <h1>Know as about more</h1>
+                <p>
+                    Welcome to ChangeMakersHub, a digital sanctuary dedicated to fostering positive change and creating a better world. At HarmonyHarbor, we believe in the collective power of individuals to shape a brighter tomorrow. Our community of ChangeMakers, EmpowermentPioneers, and CompassionCatalysts come together on this platform to share ideas, collaborate on impactful projects, and inspire one another towards meaningful action. Through RenewedWorldCommunity initiatives and SustainableSolutionsHub resources, we're building a global network of individuals committed to making a difference. Join us in this journey towards a more equitable, sustainable, and harmonious world. Together, we are the agents of positive transformation, shaping a future that we're proud to pass on to generations to come. 
+                </p>
+                <a href="#"><button class="btn">Get Started</button></a>
+            </div>
+            <div class="image">
+                <img src="About us page-amico.png">
+            </div>
+        </section>
+
+
+        <div class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>Why Choose As ?</h3>
+                    <p>
+                        At ChangeMakersHub we're not just another platform; we're a community of individuals united by a shared vision - to create a better world. Here's why you should join us:
+                    </p>    
+                </div>
+                
+                <div class="box">
+                    <h3>Quick Links</h3>
+                    <a href="index.html" id="box-name">Home</a>
+                    <a href="service.html" id="box-name">Service</a>
+                    <a href="about.html" id="box-name">About</a>
+                    <a href="contact.html" id="box-name">Contact</a>
+                    <a href="plain.html" id="box-name">Plan</a>
+                </div>
+
+                <div class="box">
+                    <h3>News Letter</h3>
+                    <p>Subscribe us for latest update</p>
+                    <form action="">
+                        <input type="email" placeholder="your email">
+                        <input type="submit" class="btn">
+                    </form>
+                </div>
+            </div>
+            <h1 class="credit">created by <a href="#">Kamran Akthar </a>| all right reserved.</h1>
+        </div>
+
+
+        
+
+
+        <script>
+            $(document).ready(function(){
+                $('#menu').click(function(){
+                    $(this).toggleClass('fa-times');
+                    $('.bar-menu').toggleClass('nav-toggle');
+                });
+            });
+        </script>
+    </body>
+</html>

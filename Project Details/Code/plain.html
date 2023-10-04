@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Multi Response website</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 class="home">Plain</h1>
+            <div id="menu" class="fas fa-bars"></div>
+            <nav class="bar-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="plain.html">Plain</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="plan">
+            <div class="box-container">
+                <div class="box">
+                    <h3 class="title">Basic</h3>
+                    <div class="price">
+                        <h1>$10<span>/Montly</span></h1>
+                    </div>
+                    <ul>
+                        <li>10 GB Free Space</li>
+                        <li>5 Email Accounts You Can add</li>
+                        <li>No Maintence Charge Give Our Team will Manage</li>
+                        <li>5 Domain You Can Add No Of Cost</li>
+                    </ul>
+                    <a href="#"><button class="btn">Buy Now</button></a>
+                </div>
+
+                <div class="box">
+                    <h3 class="title">Standard</h3>
+                    <div class="price">
+                        <h1>$30<span>/Montly</span></h1>
+                    </div>
+                    <ul>
+                        <li>30 GB Free Space</li>
+                        <li>10 Email Accounts You Can add</li>
+                        <li>No Maintence Charge Give Our Team will Manage</li>
+                        <li>15 Domain You Can Add No Of Cost</li>
+                    </ul>
+                    <a href="#"><button class="btn">Buy Now</button></a>
+                </div>
+                <div class="box">
+                    <h3 class="title">Premium</h3>
+                    <div class="price">
+                        <h1>$80<span>/Year</span></h1>
+                    </div>
+                    <ul>
+                        <li>40 GB Free Space</li>
+                        <li>20 Email Accounts You Can add</li>
+                        <li>No Maintence Charge Give Our Team will Manage</li> 
+                        <li> Addition Service</li>
+                        <li>20 Domain Free </li> 
+                        <li>Customer Support Available 24x7</li>
+                    </ul>
+                    <a href="#"><button class="btn">Buy Now</button></a>
+                </div>
+
+            </div>  
+        </section>
+
+
+        <div class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>Why Choose As ?</h3>
+                    <p>
+                        At ChangeMakersHub we're not just another platform; we're a community of individuals united by a shared vision - to create a better world. Here's why you should join us:
+                    </p>    
+                </div>
+                
+                <div class="box">
+                    <h3>Quick Links</h3>
+                    <a href="index.html" id="box-name">Home</a>
+                    <a href="service.html" id="box-name">Service</a>
+                    <a href="about.html" id="box-name">About</a>
+                    <a href="contact.html" id="box-name">Contact</a>
+                    <a href="plain.html" id="box-name">Plan</a>
+                </div>
+
+                <div class="box">
+                    <h3>News Letter</h3>
+                    <p>Subscribe us for latest update</p>
+                    <form action="">
+                        <input type="email" placeholder="your email">
+                        <input type="submit" class="btn">
+                    </form>
+                </div>
+            </div>
+            <h1 class="credit">created by <a href="#">Kamran Akthar </a>| all right reserved.</h1>
+        </div>
+
+        
+        <script>
+            $(document).ready(function(){
+                $('#menu').click(function(){
+                    $(this).toggleClass('fa-times');
+                    $('.bar-menu').toggleClass('nav-toggle');
+                });
+            });
+        </script>
+    </body>
+</html>
